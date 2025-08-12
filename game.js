@@ -85,6 +85,7 @@ let gameOver;              // ゲームオーバー状態を示すフラグ
  * ゲームボードを初期化（またはリセット）する関数
  */
 function initBoard() {
+    board = [];
     for (let row = 0; row < ROWS; row++) {
         board[row] = [];
         for (let col = 0; col < COLS; col++) {
